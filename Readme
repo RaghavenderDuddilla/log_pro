@@ -1,1 +1,6 @@
-If you want to search for the same pattern across different log files and log error messages if the pattern is found in any of them
+If you want to search for the same pattern across different log files and log error messages if the pattern is found in any of them.
+
+
+Replace `"path_to_log_file1.log"` and `"path_to_log_file2.log"` with the actual paths to the log files you want to search through. The script will iterate through each log file, search for the specified pattern, and log an error message if the pattern is found in any of the log files.
+
+This version of the script handles multiple log files and logs errors to the same `error_log.txt` file. It's important to note that you might want to enhance error handling and refine the pattern matching logic based on the structure of your log files and the specific patterns you're looking for.
